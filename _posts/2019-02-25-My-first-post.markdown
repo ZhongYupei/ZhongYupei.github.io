@@ -1,12 +1,10 @@
 ---
 layout: post
 title: My first post!!!
-date: 2019-2-25 
+date: 2019-2-25 15:01:35 +0300
 image:  firstpost.jpg
-tags:Jekyll    
+tags:    
 ---
-
-
 Wow !
 Look who's here !
 My pleasure to welcome you !
