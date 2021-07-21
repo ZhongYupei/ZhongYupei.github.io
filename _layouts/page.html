@@ -1,47 +1,31 @@
 ---
-layout: compress
+layout: default
 ---
+<div class="container">
+	<div class="page-title-box">
+		<div class="row">
+			<div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+				<h1 class="page-title">{{ page.title | escape }}</h1>
+			</div>
+		</div>
+	</div>
 
-<!DOCTYPE html>
-<html>
-{% include head.html %}
-<body id="posts" class="inner-post-page">
+	{% if page.image %}
+	<div class="page__head">
+		<div class="page-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
+	</div>
+	{% endif %}
+</div>
 
-    <div class="block-left">
-      <div class="content">
-        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
-        <div class="post-title-section">
-          <div class="section-line">Posts <em>/</em></div>
-          <h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-          <ul class="tags">
-            {% for tag in page.tags %}
-              <li><a href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a></li>
-              {% unless forloop.last %}
-              {% endunless %}
-            {% endfor %}
-          </ul>
-          <div class="section-line reverse"><a href="{{ site.url}}/posts">Back to posts</a> <em>/</em></div>
-        </div>
-      </div>
-    </div>
 
-    <div class="block-right">
-      <div class="share-buttons">
-        {% include share.html %}
-      </div>
-      <a href="../posts.html" title="posts" class="posts-menu-icon"></a>
-      <a title="projects" class="projects-menu-icon">
-        <span></span>
-      </a>
-      <div class="inner-post content">
-        <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
-        {{ content }}
-        <br>
-        {% include share.html %}
-        {% include page-pagination.html %}
-      </div>
-    </div>
-    {% include scripts.html %}
-    {% include overlay.html %}
-</body>
-</html>
+<div class="container">
+	<div class="row">
+		<!-- begin page -->
+		<article class="page col col-8 col-t-10 col-m-12">
+			<div class="page__content">
+				{{ content }}
+			</div>
+		</article>
+		<!-- end page -->
+	</div>
+</div>
