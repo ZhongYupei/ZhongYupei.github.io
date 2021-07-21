@@ -1,15 +1,23 @@
 ---
-layout: default
-title: Page Not Found
-permalink: /404
+layout: page
+title: 404
+sitemap:
+  exclude: 'yes'
+published: true
 ---
-<!--
-This error template is used for all 404 errors, which might occur on your site.
-It's a good idea to keep this template as minimal as possible in terms of both file size and complexity.
--->
-<section class="mast section-padding--double">
-  <div class="grid-small">
-    <h2>404</h2>
-    <p class="mast__text">This page does not exist.</p>
-  </div>
-</section>
+<div class="page">
+
+    <h2 class="go-home">
+    Error 404
+    </h2>
+    <h3 class="go-home">
+      I'm not sure how you got here, but you should head <a href="/">home</a>.
+    </h3>
+
+</div>
+
+
+<!-- Adding the glitch effect -->
+<script>
+    document.getElementsByTagName('body')[0].classList.add('glitch');
+</script>
