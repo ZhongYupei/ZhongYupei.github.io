@@ -16,7 +16,7 @@ Hello ,欢迎来到我的博客。
 很高兴在茫茫博客中与你见面。
 这是我的第一篇博客。
 <!--more-->
-
+<br><br><br><br><br><br>
 Hello。
 
 ### I am
@@ -24,6 +24,8 @@ Hello。
 - 广东工业大学在校研究生，控制科学与工程
 - 2年iOS开发经验
 - 2年Python经历
+
+<br>
 
 ### In my daily life
 - Breathing
