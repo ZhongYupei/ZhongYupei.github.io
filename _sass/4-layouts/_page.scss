@@ -18,22 +18,23 @@
 
 .page__head {
   margin: 0px auto;
+  height: 1500px;
+  width: 1200px;
   .page-image {
     
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1500px;
-    width: 1200px;
+    // height: 1500px;
+    // width: 1200px;
     // background-color: $light-gray;
-    
     &:after {
       content: "";
       display: table;
       width: 80%;
       height: 80%;
       min-height: 0px;
-      padding-top: 50%;
+      padding-top: 0%;
     }
   }
 }
