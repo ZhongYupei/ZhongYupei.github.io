@@ -24,7 +24,7 @@ tags:
 
 `JPChatBottomBar ` 与现在主流的聊天页面的底部横条页面相似。
 类似于微信中的：
-![底部横条](wechatBottomBar.jpg)
+![底部横条](images/02_post/wechatBottomBar.jpg)
 
 之所以先从这个横条来折腾，个人想法：从功能上来说，这个模块可以从Im中独立出来，但又可以屏蔽掉因通信部分第三方服务选择的不同而带来的差异，服务于聊天的整个框架。以后如果框架发生变化，这一模块受到的影响也会是最小的。
 
@@ -261,7 +261,7 @@ demo的地址放在这里：[JPChatBottomBar--github地址](https://github.com/Z
 ![‘更多’键盘](images/02_post/gengduojianpan.jpg)
 开发者在使用的时候如果想要键入不同的功能实现，只要在`/ImageResource/JPMoreBundle.bundle` 的`JPMorePackageList.plist`文件中添加相应的item
 
-![JPMorePackageList.plist展示](gengduojianpanplistyemian.jpg) %}
+![JPMorePackageList.plist展示](gengduojianpanplistyemian.jpg)
 
 > 内部也已经做好了适配的效果，不过当item数量超过8个时候，没有完成像微信的那种分页效果，后期我会继续完善。
 
