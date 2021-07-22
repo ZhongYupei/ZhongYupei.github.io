@@ -29,8 +29,9 @@
     
     &:after {
       content: "";
-      // display: table;
-      width: 100%;
+      display: table;
+      width: 80%;
+      height: 80%;
       min-height: 0px;
       padding-top: 50%;
     }
