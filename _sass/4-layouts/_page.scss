@@ -19,19 +19,19 @@
 .page__head {
   
   .page-image {
-    
+
     background-size: cover;
-    // background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 2000px;
+    height: 1500px;
     // background-color: $light-gray;
-    &:after {
-      content: "";
-      display: table;
-      width: 100%;
-      min-height: 400px;
-      // padding-top: 50%;
-    }
+    // &:after {
+    //   content: "";
+    //   // display: table;
+    //   width: 100%;
+    //   min-height: 400px;
+    //   // padding-top: 50%;
+    // }
   }
 }
 
