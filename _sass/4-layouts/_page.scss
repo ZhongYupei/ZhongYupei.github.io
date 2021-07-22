@@ -25,16 +25,16 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    // height: 1500px;
-    // width: 1200px;
-    // background-color: $light-gray;
+    height: 1500px;
+    width: 1000px;
+    background-color: $light-gray;
     &:after {
       content: "";
       display: table;
-      width: 80%;
-      height: 80%;
+      // width: 80%;
+      // height: 80%;
       min-height: 0px;
-      padding-top: 0%;
+      padding-top: 50%;
     }
   }
 }
