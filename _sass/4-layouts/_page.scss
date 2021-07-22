@@ -17,7 +17,7 @@
 }
 
 .page__head {
-  margin-top: 100px auto;
+  margin: 100px auto;
   .page-image {
     
     background-size: cover;
@@ -31,7 +31,7 @@
       // display: table;
       width: 100%;
       min-height: 400px;
-      // padding-top: 50%;
+      padding-top: 50%;
     }
   }
 }
