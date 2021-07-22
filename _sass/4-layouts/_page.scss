@@ -1,7 +1,9 @@
 .page-title-box {
   padding: 80px 0;
   border-top: 1px solid $light-gray;
+  background-position: center;
   .page-title {
+    background-position: center;
     font-size: 57px;
     line-height: 70px;
     margin: 0;
@@ -10,6 +12,7 @@
     padding: 40px 0;
 
     .page-title {
+      background-position: center;
       font-size: 47px;
       line-height: 53px;
     }
@@ -18,7 +21,7 @@
 
 .page__head {
   margin: 0px auto;
-  height: 1500px;
+  height: 2000px;
   width: 1000;
   .page-image {
     
@@ -40,7 +43,7 @@
 }
 
 .page {
-  margin: 80px auto;
+  margin: 0px auto;
 
   img {
     margin: 30px 0;
