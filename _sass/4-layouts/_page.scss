@@ -21,6 +21,7 @@
 
 .page__head {
   margin: 0px auto;
+  background-position: center;
   height: 2000px;
   width: 1000;
   .page-image {
@@ -30,7 +31,7 @@
     background-repeat: no-repeat;
     height: 1300px;
     width: 900px;
-    background-color: $light-gray;
+    // background-color: $light-gray;
     &:after {
       content: "";
       display: table;
