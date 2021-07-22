@@ -23,9 +23,9 @@ tags:
 ## 写在前面
 
 `JPChatBottomBar ` 与现在主流的聊天页面的底部横条页面相似。
-类似于微信中的：ab
+类似于微信中的：
 
-<center>![底部横条](/images/02_post/wechatBottomBar.jpg)</center>
+![底部横条](/images/02_post/wechatBottomBar.jpg)
 
 之所以先从这个横条来折腾，个人想法：从功能上来说，这个模块可以从Im中独立出来，但又可以屏蔽掉因通信部分第三方服务选择的不同而带来的差异，服务于聊天的整个框架。以后如果框架发生变化，这一模块受到的影响也会是最小的。
 
@@ -64,7 +64,7 @@ demo的地址放在这里：[JPChatBottomBar--github地址](https://github.com/Z
 ## 键盘切换
 先看一下我所实现的效果。
 
-<center>![键盘弹出,上面的视图向上滑动](/images/02_post/jianpantanchu.gif)</center>
+![键盘弹出,上面的视图向上滑动](/images/02_post/jianpantanchu.gif)
 
 可以看到，在键盘弹出的过程中，`controller.view`要向上滑动，避免弹出的键盘遮挡住了用户的聊天页面。这也是非常基础的功能。
 
@@ -76,7 +76,7 @@ demo的地址放在这里：[JPChatBottomBar--github地址](https://github.com/Z
 但是发现，系统键盘的高度不是都一样的，例如汉语拼音的九宫格键盘要比26键高，而日语九宫格键盘要比26键低，所以不是很全。
 
 于是最后还是采用了监听键盘弹出的通知来实现 :
-<center>![键盘切换过程中小部分覆盖问题](/images/02_post/jianpanbeifugai.gif)</center>
+![键盘切换过程中小部分覆盖问题](/images/02_post/jianpanbeifugai.gif)
 
 而微信在这一块的实现就没有这种覆盖效果，微信等到`viewController.view`来到该到的位置之后，再让键盘从下面弹出。
 
@@ -171,7 +171,7 @@ demo的地址放在这里：[JPChatBottomBar--github地址](https://github.com/Z
 ***根据语音的强度来刷新audioView的UI***
 
 参见效果如下：
-<center>![分贝强度UI的刷新](/images/02_post/yuyinshuaxin.gif)</center>
+![分贝强度UI的刷新](/images/02_post/yuyinshuaxin.gif)
 
 我们首先获取语音强度平均值的方法主要通过：
 
@@ -259,10 +259,10 @@ demo的地址放在这里：[JPChatBottomBar--github地址](https://github.com/Z
 
 ## '更多' 键盘 上面的Item
 `JPChatBottomBar`里面的‘更多’键盘与微信的类似。
-<center>![‘更多’键盘](/images/02_post/gengduojianpan.jpg)</center>
+![‘更多’键盘](/images/02_post/gengduojianpan.jpg)
 开发者在使用的时候如果想要键入不同的功能实现，只要在`/ImageResource/JPMoreBundle.bundle` 的`JPMorePackageList.plist`文件中添加相应的item
 
-<center>![JPMorePackageList.plist展示](/images/02_post/gengduojianpanplistyemian.jpg)</center>
+![JPMorePackageList.plist展示](/images/02_post/gengduojianpanplistyemian.jpg)
 
 > 内部也已经做好了适配的效果，不过当item数量超过8个时候，没有完成像微信的那种分页效果，后期我会继续完善。
 
@@ -338,7 +338,7 @@ NSString * kJPDictKeyImageStrKey = @"imageStr";
 
 ### 表情包的分页效果
 在看过github上面别人表情包demo之后，有一些并没有实现滑动切换表情包组，于是自己实现了一个，效果参考如下:
-<center>![表情包组的切换](/images/02_post/biaoqingbaofenye.gif)</center>
+![表情包组的切换](/images/02_post/biaoqingbaofenye.gif)
 
 分也效果的实现方式：通过三个view去复用，在`ScrollView`中去轮流展示。
 
@@ -373,14 +373,14 @@ self.rightPV = tmpView;
 ```
 
 我通过下面的图片来展示这一块底层的实现，可能可以方便大家理解：
-<center>![解释分页效果的底层](/images/02_post/tupianzhenshifenye.jpg)</center>
+![解释分页效果的底层](/images/02_post/tupianzhenshifenye.jpg)
 
 当用户手指向右滑展示上一页的时候，底部实现的方式也是类似，以此类推。
 更多细节（如何计算当前页对应哪一组表情包的哪一页等）可以参考我写在`JPEmojiInputView.m`里的`- (void)scrollViewDidScroll:(UIScrollView *)scrollView `。
 
 ### 点击SmallEmoji嵌入文本
 iOS 中textView和textField可以自动识别系统原生的表情：
-<center>![系统原生的表情](/images/02_post/xitongyuanshengbiaoqing.jpg)</center>
+![系统原生的表情](/images/02_post/xitongyuanshengbiaoqing.jpg)
 
 而针对我们开发者另外添加的小表情，textView和textField不能直接识别。
 
@@ -389,7 +389,7 @@ iOS 中textView和textField可以自动识别系统原生的表情：
 - 2.微信：点击非原生表情包嵌入该表情包描述文本。
 
 而要注意的是，当我们将‘图文混编’的文本消息发送出去经过我们服务器的时候，一般是不对字符串中的图片信息进行解析，因此，底层依旧是向服务器传递纯文本消息，而对里面的图片信息做了处理转换成了表情包的描述文本，下面我用一张图片解释这个问题：
-<center>![收发流程](/images/02_post/biaoqingbaofasongliucheng.jpg)</center>
+![收发流程](/images/02_post/biaoqingbaofasongliucheng.jpg)
 
 可以看到我们本地需要对这些“图文混编”的文本转换成纯文本才能发送至服务端。这里主要通过两个系统的类来进行表情包和其描述文本的匹配。
 - 1.`NSTextAttachment` : 文本中的‘插件’，我们通过这个类来插入图片。
@@ -440,7 +440,7 @@ iOS 中textView和textField可以自动识别系统原生的表情：
 }
 ```
 实现的效果:
-<center>![发送'图文混编'文本](/images/02_post/biaoqingbaofasong.gif)</center>
+![发送'图文混编'文本](/images/02_post/biaoqingbaofasong.gif)
 
 而在按下删除键，要实现删除表情包描述文本，我们需要判断`textView.selectedRange`所在的位置是否为表情描述文本，代码参考如下：
 
@@ -502,7 +502,7 @@ iOS 中textView和textField可以自动识别系统原生的表情：
 
 #### 展示
 前者的底部视图是一张已经画好的图片，
-<center>![小表情包的底部视图](/images/02_post/xiaobiaoqingdibushitu.jpg)</center>
+![小表情包的底部视图](/images/02_post/xiaobiaoqingdibushitu.jpg)
 
 后者的底部视图我通过重绘机制(`QuartzCore`框架并且重写`-drawRect: `方法)来进行描边以及视图颜色的填充(关于重绘制:[iOS开发之drawRect的作用和调用机制](https://blog.csdn.net/xiaoxiaobukuang/article/details/51594157))，代码:
 
