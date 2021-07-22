@@ -25,11 +25,9 @@ tags:
 `JPChatBottomBar ` 与现在主流的聊天页面的底部横条页面相似。
 类似于微信中的：
 
-<center>
 
 ![底部横条](/images/02_post/wechatBottomBar.jpg)
 
-</center>
 
 之所以先从这个横条来折腾，个人想法：从功能上来说，这个模块可以从Im中独立出来，但又可以屏蔽掉因通信部分第三方服务选择的不同而带来的差异，服务于聊天的整个框架。以后如果框架发生变化，这一模块受到的影响也会是最小的。
 
@@ -68,11 +66,11 @@ demo的地址放在这里：[JPChatBottomBar--github地址](https://github.com/Z
 ## 键盘切换
 先看一下我所实现的效果。
 
-<center>
+
 
 ![键盘弹出,上面的视图向上滑动](/images/02_post/jianpantanchu.gif)
 
-</center>
+
 
 可以看到，在键盘弹出的过程中，`controller.view`要向上滑动，避免弹出的键盘遮挡住了用户的聊天页面。这也是非常基础的功能。
 
