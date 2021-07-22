@@ -24,13 +24,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: $light-gray;
+    // background-color: $light-gray;
     &:after {
       content: "";
       display: table;
       width: 100%;
       min-height: 400px;
-      padding-top: 50%;
+      // padding-top: 50%;
     }
   }
 }
