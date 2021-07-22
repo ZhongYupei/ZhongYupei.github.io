@@ -63,7 +63,7 @@ demo的地址放在这里：[JPChatBottomBar--github地址](https://github.com/Z
 ## 键盘切换
 先看一下我所实现的效果。
 
-<center>![键盘弹出,上面的视图向上滑动](images/02_post/jianpantanchu.gif  %}</center>
+<center>![键盘弹出,上面的视图向上滑动](images/02_post/jianpantanchu.gif)</center>
 
 可以看到，在键盘弹出的过程中，`controller.view`要向上滑动，避免弹出的键盘遮挡住了用户的聊天页面。这也是非常基础的功能。
 
