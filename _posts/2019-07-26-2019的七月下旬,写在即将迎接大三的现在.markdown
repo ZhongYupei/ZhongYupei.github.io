@@ -9,6 +9,19 @@ image:  13160879-34755c57cb5fdcaf.jpg
 
 >  这是一篇自我总结 🤓
 
+
+## 写在前面
+
+转眼间，大二匆匆就过去了，大学生活一下子就过去了一半。
+六月份接了 一个日本的外包，再加上考试月，很忙碌。
+本以为过了六月，接下来会轻松些。
+然后现在：
+手头上还有着老师的项目，ddl在八月中旬。
+
+在这个忙碌的时里，想安静一下回顾总结自己已经过的大二，和准备一下即将到来的大三。
+
+面对已经过去的时间，‘ 大二做了什么？’这是我最快想到的问题，也是最想通过自己反思得到答案的问题。
+
 <!--more-->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,25 +38,11 @@ image:  13160879-34755c57cb5fdcaf.jpg
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=557203676&auto=0&height=66"></iframe>
 
+<!-- <center><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=557203676&auto=0&height=66"></iframe></center> -->
+<center><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/song?id=1405427891&userid=49981511"></iframe></center>
+<!-- http: -->
 
-
-
-## 写在前面
-
-转眼间，大二匆匆就过去了，大学生活一下子就过去了一半。
-
-六月份接了 一个日本的外包，再加上考试月，很忙碌。
-本以为过了六月，接下来会轻松些。
-
-然后现在：
-手头上还有着老师的项目，ddl在八月中旬。
-
-在这个忙碌的时里，想安静一下回顾总结自己已经过的大二，和准备一下即将到来的大三。
-
-
-面对已经过去的时间，‘ 大二做了什么？’这是我最快想到的问题，也是最想通过自己反思得到答案的问题。
 
 ### 我的大二
 在退出了学生社团之后，自己的生活似乎变得更加单调了，很大部分时间就是 宿舍-课室-工作室 三点成一线。
@@ -82,7 +81,7 @@ image:  13160879-34755c57cb5fdcaf.jpg
 想和大家分享这句出自《毒液》的台词，它给了我很大的共鸣。
 
 
-![my wechat page](./2019-的七月下旬-写在即将迎接大三的现在/13160879-5d2527d1f208ccb2.jpg)
+![my wechat page](/images/03_post/13160879-5d2527d1f208ccb2.jpg)
 
 大二这一年里，自己接触了很多的技术，从课内的专业，到自学的iOS、Python、ML、Linux、底层的编译，再到硬件上的树莓派，很难说自己全都已经完全掌握了，许多方向自己甚至只是刚入门的水准。
 
