@@ -17,14 +17,15 @@
 }
 
 .page__head {
-  
+  margin-top: 100px auto;
   .page-image {
-    margin-top: 100px auto;
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 1500px;
-    background-color: $light-gray;
+    // background-color: $light-gray;
+    
     &:after {
       content: "";
       // display: table;
